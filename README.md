@@ -326,8 +326,3 @@ For issues, questions, or suggestions:
 <div align="center">
   <sub>Built with ❤️ by the Velocity community</sub>
 </div>
-#   V e l o c i t y  
- #   V e l o c i t y  
- #   V e l o c i t y  
- #   V e l o c i t y  
- 
