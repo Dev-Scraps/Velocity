@@ -1,0 +1,9 @@
+C:\Code\YTDLPPROJECTS\Velocity\src-tauri\target\debug\deps\rand_chacha-c37bfe78e72a0dba.d: C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\lib.rs C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\chacha.rs C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\guts.rs
+
+C:\Code\YTDLPPROJECTS\Velocity\src-tauri\target\debug\deps\librand_chacha-c37bfe78e72a0dba.rlib: C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\lib.rs C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\chacha.rs C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\guts.rs
+
+C:\Code\YTDLPPROJECTS\Velocity\src-tauri\target\debug\deps\librand_chacha-c37bfe78e72a0dba.rmeta: C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\lib.rs C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\chacha.rs C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\guts.rs
+
+C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\lib.rs:
+C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\chacha.rs:
+C:\Users\ABHISHEK\ SINGH\scoop\persist\rustup\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_chacha-0.2.2\src\guts.rs:

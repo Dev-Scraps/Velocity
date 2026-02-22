@@ -1,0 +1,10 @@
+src-tauri/resources/binaries/windows/ffmpeg.exe filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/windows/ffprobe.exe filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/linux/ffprobe filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/linux/ffmpeg filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/macos/ffmpeg filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/macos/ffprobe filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/macos/yt-dlp filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/linux/yt-dlp filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/windows/yt-dlp.exe filter=lfs diff=lfs merge=lfs -text
+src-tauri/resources/binaries/** filter=lfs diff=lfs merge=lfs -text

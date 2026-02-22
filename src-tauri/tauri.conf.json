@@ -1,0 +1,71 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "Velocity",
+  "version": "1.0.0",
+  "identifier": "com.velocity.youtube",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Velocity",
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": false,
+        "titleBarStyle": "Visible",
+        "skipTaskbar": false,
+        "alwaysOnTop": false,
+        "minWidth": 800,
+        "minHeight": 600
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' data:; connect-src 'self' https://www.youtube.com wss://www.youtube.com https://api.github.com"
+    },
+    "withGlobalTauri": true
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis",
+      "app"
+    ],
+    "icon": [
+      "icons/icon.png",
+      "icons/Velocity.ico"
+    ],
+    "publisher": "Velocity",
+    "copyright": "Copyright 2025 Velocity",
+    "category": "Video",
+    "shortDescription": "YouTube video downloader and manager",
+    "longDescription": "Velocity is a powerful YouTube video downloader with playlist support, private video access, and download history tracking.",
+    "resources": [
+      "resources/binaries/windows/**/*"
+    ],
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": "",
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      },
+      "wix": {
+        "upgradeCode": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://api.github.com/repos/777abhishek/velocity/releases/latest"
+      ],
+      "dialog": true,
+      "pubkey": ""
+    }
+  }
+}
